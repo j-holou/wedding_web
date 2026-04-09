@@ -368,7 +368,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  height: auto !important;
+  min-height: 850px;
   float: left;
 }
 #fh5co-counter .display-t,
@@ -1941,4 +1942,36 @@ form label {
 
 #fh5co-services iframe:hover {
     filter: grayscale(0%);
+}
+
+
+.custom-icon {
+  width: 42px;
+  height: 42px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+
+.floating-rsvp {
+  position: absolute;
+  top: 35px;
+  right: 40px;
+  z-index: 1002;
+  background: rgba(255, 255, 255, 0.95) !important;
+  color: #646464 !important;
+  border: none !important;
+  border-radius: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  padding: 22px 45px !important;
+  font-family: Sofia Sans Condensed, Work Sans, sans-serif !important;
+  font-size: 26px !important;
+  font-weight: 600 !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.floating-rsvp:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.20);
 }
