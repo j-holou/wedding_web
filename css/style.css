@@ -1975,3 +1975,44 @@ form label {
   transform: translateY(-2px);
   box-shadow: 0 24px 70px rgba(0, 0, 0, 0.20);
 }
+
+.inline-link {
+  color: #646464;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.inline-link:hover,
+.inline-link:focus {
+  color: #000;
+  text-decoration-color: #000;
+}
+
+.inline-link {
+  color: #646464;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  /* background: rgba(100, 100, 100, 0.12); */
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+.inline-link {
+  text-decoration: underline;
+}
+
+.info-card p a.inline-link,
+.info-card p a.inline-link:hover,
+.info-card p a.inline-link:focus,
+.info-card p a.inline-link:active,
+.info-card p a.inline-link:visited {
+  color: #4a4a4a !important;
+  font-weight: 700;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+}
