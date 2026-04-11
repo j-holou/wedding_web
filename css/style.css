@@ -1971,6 +1971,12 @@ form label {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 768px) {
+  .floating-rsvp {
+    display: none !important;
+  }
+}
+
 .floating-rsvp:hover {
   transform: translateY(-2px);
   box-shadow: 0 24px 70px rgba(0, 0, 0, 0.20);
@@ -2011,8 +2017,24 @@ form label {
 .info-card p a.inline-link:active,
 .info-card p a.inline-link:visited {
   color: #4a4a4a !important;
-  font-weight: 700;
+  font-weight: 500;
   text-decoration: underline !important;
   text-underline-offset: 3px;
   text-decoration-thickness: 2px;
+}
+
+#fh5co-gallery-list li {
+  background-size: cover;
+}
+
+#fh5co-gallery-list li.photo-1 {
+  background-position: center 100%;
+}
+
+#fh5co-gallery-list li.photo-2 {
+  background-position: center 3%;
+}
+
+#fh5co-gallery-list li.photo-3 {
+  background-position: center 40%;
 }
