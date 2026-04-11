@@ -1948,7 +1948,7 @@ form label {
 .custom-icon {
   width: 42px;
   height: 42px;
-  margin: 0 auto 20px;
+  margin: 0 auto 1px;
   display: block;
 }
 
@@ -2037,4 +2037,18 @@ form label {
 
 #fh5co-gallery-list li.photo-3 {
   background-position: center 40%;
+}
+
+.gift-qr {
+  width: 90px;
+  height: 90px;
+  margin: 15px auto 50px;
+  display: block;
+}
+
+.paleta {
+  width: 300px;
+  height: 40px;
+  margin: 15px auto 50px;
+  display: block;
 }

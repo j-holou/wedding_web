@@ -11,7 +11,7 @@ qr = qrcode.QRCode(
 qr.add_data('https://budemeholoubkovi.cz/')
 qr.make(fit=True)
 
-img = qr.make_image(fill_color="black", back_color="white")
+img = qr.make_image(fill_color="black", back_color="transparent")
 img.show()
 img.save("QRweb.png")
 
